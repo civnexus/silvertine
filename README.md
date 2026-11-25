@@ -1,6 +1,6 @@
 # Silvertine SI
 
-**Intelligence. Made tangible.**
+**Applied Superintelligence.**
 
 A responsive first-draft website for Silvertine, an applied superintelligence company. Prepared for **silvertine.si**. Enquiries: **connect@silvertine.si**.
 
@@ -32,9 +32,9 @@ Edit `public/index.html`, `public/styles.css`, and `public/site.js`. `scripts/bu
 ## Design and content
 
 - Alpine silver, dark granite, restrained geometric summit mark, editorial serif typography.
-- Original summit citadel, bedrock interior, and mountain mission-control concept imagery.
-- Perspective, development/compute/reserve disclosures, mission control, conviction, and private enquiries.
-- Reserve is identified as a future horizon. Mission control is an architectural concept, not an existing facility.
+- Original summit citadel, bedrock interior, mountain mission-control, and ascending stair imagery.
+- Perspective, development and compute disclosures, mission control, conviction, and private enquiries.
+- Brand imagery connects summit foresight, mission control, and an ascending granite stair.
 - No fabricated customers, performance statistics, operational facilities, or financial product promises.
 
 ## Brand assets
