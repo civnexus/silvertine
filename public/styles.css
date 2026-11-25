@@ -41,3 +41,34 @@
 .contact h2 {
   margin-bottom: 0;
 }
+
+.perspective-landscape {
+  width: 100%;
+  aspect-ratio: 2.65;
+  object-fit: cover;
+}
+.closing-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  align-items: center;
+  gap: 8%;
+}
+.closing-gallery {
+  width: 100%;
+  aspect-ratio: 1.4;
+  object-fit: cover;
+}
+.closing-signature { text-align: center; }
+.closing-mark {
+  margin: 0 auto 2rem;
+  filter: brightness(0);
+  opacity: .78;
+}
+.closing-signature .eyebrow { color: var(--muted); margin-bottom: 1rem; }
+.closing-signature .contact-email { margin-top: 1.3rem; }
+.closing-signature .contact-email:hover { color: var(--muted); }
+@media (max-width: 700px) {
+  .perspective-landscape { aspect-ratio: 1.65; }
+  .closing-grid { grid-template-columns: 1fr; gap: 3rem; }
+  .closing-gallery { aspect-ratio: 1.78; }
+}
