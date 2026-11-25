@@ -33,5 +33,5 @@ const config=JSON.parse(await readFile('vercel.json','utf8'));
 assert.equal(config.outputDirectory,'dist');
 assert.ok(Buffer.byteLength(js)<5000,'Keep client JavaScript under 5 KB');
 assert.ok(Buffer.byteLength(css)<24000,'Keep stylesheet under 24 KB');
-for(const name of ['summit-960.webp','summit-1280.webp','summit-1680.webp','silvertine-social.jpg']) assert.ok((await stat(join(root,'assets',name))).size<500000,`${name} exceeds image budget`);
+for(const name of ['summit-960.webp','summit-1280.webp','summit-1680.webp','silvertine-share-branded.jpg']) assert.ok((await stat(join(root,'assets',name))).size<500000,`${name} exceeds image budget`);
 console.log(`PASS: ${paths.size} local asset references, all anchors, image accessibility attributes, metadata, structured data, manifest, Vercel config, and performance budgets.`);

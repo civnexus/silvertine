@@ -4,7 +4,7 @@
 
 A responsive first-draft website for Silvertine, an applied superintelligence company. Prepared for **silvertine.si**. Enquiries: **connect@silvertine.si**.
 
-![Silvertine brand](public/assets/silvertine-social.jpg)
+![Silvertine brand](public/assets/silvertine-share-branded.jpg)
 
 ## Deploy to Vercel
 
@@ -42,7 +42,7 @@ Edit `public/index.html`, `public/styles.css`, and `public/site.js`. `scripts/bu
 - Vector mark: `public/assets/silvertine-mark.svg`
 - Dark wordmark: `public/assets/silvertine-wordmark.svg`
 - SVG favicon, ICO fallback, Apple touch icon, 192/512px app icons
-- 1200 × 630 JPEG social card: `public/assets/silvertine-social.jpg`
+- 1200 × 630 JPEG social card: `public/assets/silvertine-share-branded.jpg`
 - Responsive WebP assets for all architectural imagery
 
 ## Web standards
