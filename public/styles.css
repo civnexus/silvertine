@@ -112,3 +112,43 @@
   .systems-studies { grid-template-columns: 1fr; }
   .systems-heading h2 { font-size: clamp(2.35rem,8vw,3rem); }
 }
+
+.perspective-statement {
+  color: var(--ink);
+  font-size: clamp(1.05rem,1.35vw,1.25rem);
+  line-height: 1.65;
+  max-width: 52ch;
+}
+.perspective-grid { align-items: start; padding-bottom: 1.5rem; }
+.case-introduction { max-width: 72ch; margin: 1.5rem 0 2.5rem; color: #d1dcdc; }
+@media(min-width: 850px) { .case-methods { grid-template-columns: repeat(3,1fr); gap: 4%; } }
+@media(min-width: 701px) and (max-width: 849px) { .case-methods { grid-template-columns: 1fr; } }
+.sequencer {
+  margin: 0;
+  min-width: 0;
+  padding: clamp(1rem,2vw,2rem);
+  background: #1d292b;
+  border: 1px solid #536265;
+  color: var(--paper);
+}
+.sequencer legend { padding: 0 .6rem; font: 1.2rem var(--serif); }
+.sequencer input { position: absolute; width: 1px; height: 1px; clip-path: inset(50%); }
+.sequencer label {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: .35rem .65rem;
+  border: 1px solid #647477;
+  font-size: .82rem;
+  cursor: pointer;
+}
+.sequencer input:checked + label { background: var(--paper); color: var(--ink); }
+.sequencer input:focus-visible + label { outline: 2px solid white; outline-offset: 3px; }
+.run { display: none; }
+#scheduled:checked ~ .run-scheduled, #delayed:checked ~ .run-delayed { display: block; }
+.run p { margin: 1rem 0; font-size: .88rem; }
+.run ol { padding: 0; margin: 0; list-style: none; }
+.run li { display: flex; align-items: baseline; gap: 1rem; border-top: 1px solid var(--line); padding: .46rem 0; font-size: .92rem; }
+.run li span { font: .78rem monospace; width: 3ch; color: #b4c6c6; }
+.contact .closing-signature { padding-block: clamp(1rem,3vw,3rem); }
+.contact .closing-mark { width: 70px; height: 70px; }

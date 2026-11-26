@@ -64,12 +64,8 @@
         <div class="section-heading"><p class="eyebrow">Perspective</p></div>
         <div class="perspective-grid">
           <h2 id="perspective-title">The operating intelligence behind physical projects</h2>
-          <div class="perspective-copy">
-            <p>Silvertine is an applied superintelligence company. We build custom intelligence applications to run complex projects, working back from what each project must deliver.</p>
-            <p>Our systems bring legal agreements, architectural designs, terrain surveys, material sources, and financing into one project model. As work advances on the ground, that model directs what moves next, where resources go, and when to commit capital.</p>
-          </div>
+          <p class="perspective-statement">Silvertine is an applied superintelligence company. We build a working model of each project from its agreements, designs, material needs, and financing. As conditions change, our systems use that model to direct the work and commit capital where it can move the project forward.</p>
         </div>
-        <img class="perspective-landscape" src="/assets/alpine-reservoir-1280.webp" srcset="/assets/alpine-reservoir-640.webp 640w, /assets/alpine-reservoir-1280.webp 1280w" sizes="(max-width: 600px) 86vw, 88vw" width="1280" height="720" loading="lazy" decoding="async" alt="An alpine dam spans a granite valley below the peaks.">
       </div>
     </section>
     <section class="focus section-dark" id="focus" aria-labelledby="focus-title">
@@ -80,14 +76,20 @@
         </div>
         <div class="systems-studies">
           <article>
-            <img src="/assets/corridor-1280.webp" srcset="/assets/corridor-640.webp 640w, /assets/corridor-1280.webp 1280w" sizes="(max-width: 760px) 86vw, 43vw" width="1280" height="720" decoding="async" loading="lazy" alt="Exploded terrain model showing a crossing, survey lines, and river valley in separate layers.">
-            <h3>How a right of way shapes a design</h3>
-            <p>Consider an alpine crossing. A line on a survey sets a legal boundary. On the ground, that same line can determine where a pier can stand and whether stone can reach it. Silvertine links the agreement to the terrain and carries those constraints into the design before procurement begins.</p>
+            <img src="/assets/stone-workshop-1280.webp" srcset="/assets/stone-workshop-640.webp 640w, /assets/stone-workshop-1280.webp 1280w" sizes="(max-width: 760px) 86vw, 43vw" width="1280" height="720" decoding="async" loading="lazy" alt="Cutaway model of a private stone workshop with slab racks, cutting stations, and drawings.">
+            <h3>From quarry block to finished stone</h3>
+            <p>Consider a private stoneworks making carved basins and bookmatched wall panels. Silvertine matches each drawing to the grain and dimensions of available stone, then sequences quarry deliveries, robotic cutting, and polishing. The finish specification determines which pieces need a final pass by hand.</p>
           </article>
           <article>
-            <img src="/assets/sequence-1280.webp" srcset="/assets/sequence-640.webp 640w, /assets/sequence-1280.webp 1280w" sizes="(max-width: 760px) 86vw, 43vw" width="1280" height="720" decoding="async" loading="lazy" alt="Viaduct model showing foundations, piers, and finished arches above parallel milestone tracks.">
-            <h3>When the next span earns its funding</h3>
-            <p>On that crossing, committing funds to every span at once would tie up capital in work that cannot yet proceed. Silvertine sequences fabrication around site access and completed foundations. When a section is ready, the system advances its material order and funding milestone together.</p>
+            <fieldset class="sequencer">
+              <legend>Workshop sequence</legend>
+              <input id="scheduled" type="radio" name="scenario" checked><label for="scheduled">On schedule</label>
+              <input id="delayed" type="radio" name="scenario"><label for="delayed">Delivery delayed</label>
+              <div class="run run-scheduled"><p>Monday delivery confirmed.</p><ol><li><span>Mon</span>Receive new slabs</li><li><span>Mon</span>Release supplier payment</li><li><span>Tue</span>Cut order A · new slabs</li><li><span>Wed</span>Cut order B · stock</li></ol></div>
+              <div class="run run-delayed"><p>Slab delivery moves from Monday to Wednesday.</p><ol><li><span>Mon</span>Cut order B · stock</li><li><span>Wed</span>Receive new slabs</li><li><span>Wed</span>Release supplier payment</li><li><span>Thu</span>Cut order A · new slabs</li></ol></div>
+            </fieldset>
+            <h3>When a shipment slips</h3>
+            <p>One order needs a fresh slab from the quarry. A second can use stone already in the workshop. Switch the delivery scenario to see how the model keeps the cutting cell productive and moves the supplier payment to the day the stone arrives.</p>
           </article>
         </div>
       </div>
@@ -96,12 +98,8 @@
       <div class="wrap">
         <div class="case-heading">
           <p class="eyebrow">Case study</p>
-          <h2 id="case-title">Highland Sanctuary<br><em>&amp; Sovereign Estate</em></h2>
-          <p class="case-lead">A mountain destination. An integrated operating intelligence.</p>
-        </div>
-        <div class="case-context">
-          <p>A multi-phase development spanning hospitality, private residences, and a members’ retreat. Rugged volcanic terrain. An architectural language shaped by landscape, local material, and human scale.</p>
-          <p>Silvertine operates behind the scenes, connecting the build schedule, material flow, infrastructure, and capital plan. The destination remains organic and timeless. The execution becomes coordinated.</p>
+          <h2 id="case-title">Highland <em>Sanctuary</em></h2>
+          <p class="case-introduction">A multi-phase mountain destination brings together hospitality, private residences, and a members’ retreat. Rugged volcanic terrain and local stone shape the architecture. Behind the scenes, Silvertine connects the build schedule, material supply, infrastructure, and capital plan across each phase.</p>
         </div>
         <figure class="mission-figure">
           <img src="/assets/development-planning-1280.webp" srcset="/assets/development-planning-640.webp 640w, /assets/development-planning-1280.webp 1280w" sizes="(max-width: 600px) 86vw, 88vw" width="1280" height="720" loading="lazy" decoding="async" alt="Illustrative terrain model with lodge sites and access roads beside a digital view of development phases.">
@@ -110,13 +108,11 @@
           <article><h3>Vertical material integration</h3><p>Link nearby stone and quarry resources to grading, cutting, and just-in-time delivery. Match material preparation to the next build stage. Reduce external dependencies and unnecessary handling.</p></article>
           <article><h3>Dynamic event sequencing</h3><p>Use terrain, weather, and site telemetry to update the sequence of work. Redirect crews and equipment as conditions change. Recover time lost between contractors, deliveries, and weather windows.</p></article>
           <article><h3>Phased capital synchronization</h3><p>Model returns across decades. Release capital against physical milestones. Structure early enclaves to help fund flagship anchors, keeping the financial sequence aligned with the construction sequence.</p></article>
-          <article><h3>Invisible infrastructure</h3><p>Integrate micro-grids, off-grid resilience, and sovereign edge compute into the development plan. Keep the supporting systems discreet, beneath a serene, nature-first architectural exterior.</p></article>
         </div>
       </div>
     </section>
     <section class="contact section-light" id="contact" aria-labelledby="contact-title">
-      <div class="wrap closing-grid">
-        <img class="closing-gallery" src="/assets/granite-gallery-1280.webp" srcset="/assets/granite-gallery-640.webp 640w, /assets/granite-gallery-1280.webp 1280w" sizes="(max-width: 700px) 86vw, 46vw" width="1280" height="720" loading="lazy" decoding="async" alt="Daylight falls across a pale granite gallery.">
+      <div class="wrap">
         <div class="closing-signature">
           <img class="closing-mark" src="/assets/silvertine-mark.svg" width="60" height="60" alt="Silvertine">
           <p class="eyebrow">Private enquiries</p>
